@@ -1,0 +1,18 @@
+﻿  lista6.cpp
+c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(99): warning C4018: ">=": niezgodność typu ze znakiem/bez znaku
+  c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(98): note: podczas kompilowania funkcji składowej „<Nieznany>” klasy klasa <Nieznany>
+  c:\xampp\htdocs\tep_lab6\lista6\lista6.cpp(15): note: zobacz odwołanie do funkcji szablon; wystąpienie „NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>> *NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::getChild(int)” jest kompilowane
+  c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(44): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>” jest kompilowane
+c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(51): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(50): note: podczas kompilowania funkcji składowej „<Nieznany>” klasy klasa <Nieznany>
+  c:\xampp\htdocs\tep_lab6\lista6\lista6.cpp(125): note: zobacz odwołanie do funkcji szablon; wystąpienie „NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::~NodeDynamic(void)” jest kompilowane
+  c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(57): note: podczas kompilowania funkcji składowej „<Nieznany>” klasy klasa <Nieznany>
+  c:\xampp\htdocs\tep_lab6\lista6\lista6.cpp(15): note: zobacz odwołanie do funkcji szablon; wystąpienie „void NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::setValue(T)” jest kompilowane
+          with
+          [
+              T=std::basic_string<char,std::char_traits<char>,std::allocator<char>>
+          ]
+c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(151): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  c:\xampp\htdocs\tep_lab6\lista6\nodedynamic.h(149): note: podczas kompilowania funkcji składowej „<Nieznany>” klasy klasa <Nieznany>
+  c:\xampp\htdocs\tep_lab6\lista6\treedynamic.h(49): note: zobacz odwołanie do funkcji szablon; wystąpienie „void NodeDynamic<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>::printAllBelow(void)” jest kompilowane
+  lista6.vcxproj -> C:\xampp\htdocs\TEP_lab6\Debug\lista6.exe
