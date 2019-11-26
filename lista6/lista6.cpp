@@ -3,6 +3,7 @@
 
 #include "pch.h"
 #include "TreeDynamic.h"
+#include "Table.h"
 
 using namespace std;
 
@@ -104,12 +105,64 @@ void treeTestDynamicCount() {
 	cout << "Szukana wartosc: " << valToSearch << ", wystepuje: " << tree.count(valToSearch) << " razy" << endl;
 }
 
+void testTableString() {
+	Table<string> table;
+
+	if (table.setLength(5)) {
+
+		table.setElement(0, "a");
+		table.setElement(1, "b");
+		table.setElement(2, "c");
+		table.setElement(3, "d");
+		table.setElement(4, "e");
+
+		table.print();
+	}
+}
+
+void testTableInt() {
+	Table<int> table;
+
+	if (table.setLength(5)) {
+
+		table.setElement(0, 1);
+		table.setElement(1, 2);
+		table.setElement(2, -3);
+		table.setElement(3, 4);
+		table.setElement(4, -9);
+
+		table.print();
+	}
+}
+
+void testTableDouble() {
+	Table<double> table;
+
+	if (table.setLength(5)) {
+
+		table.setElement(0, -1.4);
+		table.setElement(1, 2.3);
+		table.setElement(2, -0.5);
+		table.setElement(3, 4.1);
+		table.setElement(4, -2.1);
+
+		table.print();
+	}
+}
+
 int main() {
 	treeTestDynamic();
 	cout << endl << endl;
 	moveSubtreeTestDynamic();
 	cout << endl << endl;
 	treeTestDynamicCount();
+	cout << endl << endl;
+
+	testTableString();
+	cout << endl << endl;
+	testTableInt();
+	cout << endl << endl;
+	testTableDouble();
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
